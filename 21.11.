@@ -47,7 +47,6 @@ for i in range(10):
         y = y + step
     y = 0
     x = x + step
-
 saveImage("задание 2.pdf")
 
 
@@ -73,5 +72,4 @@ for i in range (3):
     polygon((100-width,y), (200+width, y), (150, y+step), close=True)
     y -= step
     width += width
-
 saveImage("задание 3.pdf")
